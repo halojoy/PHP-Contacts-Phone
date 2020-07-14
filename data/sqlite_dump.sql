@@ -1,0 +1,29 @@
+----
+-- phpLiteAdmin database dump (https://www.phpliteadmin.org/)
+-- phpLiteAdmin version: 1.9.8.2
+-- Exported: 6:33pm on July 4, 2020 (CEST)
+-- database file: data\sqlite.db
+----
+
+----
+-- Table structure for people
+----
+CREATE TABLE contacts(
+            id INTEGER PRIMARY KEY,
+            fname TEXT COLLATE NOCASE,
+            lname TEXT COLLATE NOCASE,
+            phone TEXT UNIQUE,
+            city  TEXT );
+
+----
+-- Table structure for admins
+----
+CREATE TABLE users(
+            id INTEGER PRIMARY KEY,
+            uname TEXT COLLATE NOCASE,
+            upass TEXT );
+
+----
+-- structure for index sqlite_autoindex_people_1 on table people
+----
+;

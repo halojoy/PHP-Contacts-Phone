@@ -1,0 +1,41 @@
+
+body {
+    background: #ccbb99;
+}
+#container {
+    background: #eeeeee;
+    width: 550px;
+    border: 4px solid #008000;
+    margin: 20px auto;
+}
+#navbar {
+    border-bottom: 2px solid #008000;
+    background: #cccccc;
+    padding: 4px 15px;
+}
+#navbar a {
+    margin-right: 15px;
+}
+#content {
+    padding: 10px 15px;
+}
+#footer {
+    border-top: 2px solid #008000;
+    text-align: center;
+    background: #cccccc;
+    font-size: 15px;
+    font-style: italic;
+}
+a {
+    color: #0000cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #cc0000;
+}        
+table {
+    border-collapse: collapse;
+}
+td {
+    padding-right: 12px;
+}
