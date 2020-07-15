@@ -46,11 +46,11 @@ class View
         <h4>Edit Contact</h4>
         <form method="post">
             <input name="fname" size="20" value="<?php echo $row->fname ?>" required>
-            <input name="lname" size="30" value="<?php echo $row->lname ?>" required>
+            <input name="lname" size="30" value="<?php echo $row->lname ?>">
             <br><br>
             <input name="phone" size="20" value="<?php echo $row->phone ?>" required>
             <br><br>
-            <input name="city" size="30" value="<?php echo $row->city ?>" required>
+            <input name="city" size="30" value="<?php echo $row->city ?>">
             <br><br>
             <input name="submit" type="submit" value="Edit">
             <input name="submit" type="submit" value="Delete"
