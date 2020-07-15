@@ -53,7 +53,7 @@ class MySQLite3 extends SQLite3
 
     function get_contacts()
     {
-        $sql = "SELECT * FROM contacts ORDER BY id DESC";
+        $sql = "SELECT * FROM contacts ORDER BY fname";
         return $this->rows($sql);
     }
 
