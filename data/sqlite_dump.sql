@@ -6,7 +6,7 @@
 ----
 
 ----
--- Table structure for people
+-- Table structure for contacts
 ----
 CREATE TABLE contacts(
             id INTEGER PRIMARY KEY,

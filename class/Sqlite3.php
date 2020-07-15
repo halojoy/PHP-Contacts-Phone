@@ -97,7 +97,7 @@ class MySQLite3 extends SQLite3
         }
 
         if ($submit == 'Delete') {
-            $sql = "DELETE FROM people WHERE id = $id";
+            $sql = "DELETE FROM contacts WHERE id = $id";
             $this->execute($sql);
             header('location:index.php');
             exit();
