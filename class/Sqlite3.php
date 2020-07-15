@@ -132,6 +132,6 @@ class MySQLite3 extends SQLite3
 
 error_reporting(32767);
 ini_set('display_errors', '1');
-return new MySQLite3();
+return new MySQLite3;
 
 ?>
