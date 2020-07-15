@@ -24,6 +24,6 @@ CREATE TABLE users(
             upass TEXT );
 
 ----
--- structure for index sqlite_autoindex_people_1 on table people
+-- structure for index sqlite_autoindex_contacts_1 on table contacts
 ----
 ;
