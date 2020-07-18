@@ -61,8 +61,9 @@ class View
         <?php
     }
 
-    function login_form()
+    function login_form($error)
     {
+        echo $error;
         ?>
         <h4>Login</h4>
         <form method="post">

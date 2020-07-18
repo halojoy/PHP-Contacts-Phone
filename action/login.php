@@ -5,7 +5,7 @@ if (LOGGED) {
     exit();
 }
 
-$db->login();
+$error = $db->login();
 require 'include/header.php';
-$view->login_form();
+$view->login_form($error);
 require 'include/footer.php';

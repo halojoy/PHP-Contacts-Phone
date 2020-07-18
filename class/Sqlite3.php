@@ -125,6 +125,8 @@ class MySQLite3 extends SQLite3
             setcookie('contact3ex', $uname, time()+14*24*3600);
             header('location:index.php');
             exit();
+        } else {
+            return 'Not a valid login';
         }
     }
 
