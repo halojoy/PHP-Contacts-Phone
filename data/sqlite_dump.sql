@@ -16,7 +16,7 @@ CREATE TABLE contacts(
             city  TEXT );
 
 ----
--- Table structure for admins
+-- Table structure for users
 ----
 CREATE TABLE users(
             id INTEGER PRIMARY KEY,
