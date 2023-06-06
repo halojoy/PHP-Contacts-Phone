@@ -77,7 +77,7 @@ class MySQLite3 extends SQLite3
 
     function edit_contact($id)
     {
-        $req_post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+        $req_post = $_POST;
         if (!isset($req_post['submit']))
             return;
         extract($req_post);
